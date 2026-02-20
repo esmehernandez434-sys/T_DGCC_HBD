@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mensaje Especial</title>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #38bdf8;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #mensaje {
+            margin-top: 20px;
+            font-size: 24px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Inicializando Sistema...</h1>
+    <button onclick="mostrarMensaje()">Descifrar Mensaje</button>
+
+    <div id="mensaje">
+        💙 Resultado: Eres la mejor parte de mi código 💻✨
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
